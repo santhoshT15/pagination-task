@@ -1,0 +1,68 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    
+    background-color: rgb(134, 123, 123);
+    color: black;
+    margin-top: -80px; 
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Gill Sans';
+    font-weight: bolder;
+}
+
+.subBox{
+    padding: 2%;
+    margin: 3%;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.btn{
+    border: 3px solid rgb(252, 231, 231);
+    color:rgb(7, 7, 7);
+    font-weight: 500;
+    border-width: 3px;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.common{
+   
+    padding: 20px;
+    margin: 1%;
+    border-radius: 4px;
+    align-items: center;
+   
+}
+ .btn:focus{
+      box-shadow:rgb(13, 13, 14);
+    }
+    
+table,thead, tbody, tr,td{
+    border: 1px solid black;
+}
+thead{
+    background-color:rgb(233, 217, 217);
+}
+
+th{
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Gill Sans';
+    
+}
+
+button{
+margin: 1%;
+}
+.d-flex{
+    align-items: center;
+    justify-content: center
+}
